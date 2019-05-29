@@ -1,0 +1,13 @@
+package lab3lcm;
+
+struct gps_t
+{
+    float timestamp;
+    float lat;
+    string lat_dir;
+    float lon;
+    string lon_dir;
+    float altitude;
+    float utm_x;
+    float utm_y;
+}
